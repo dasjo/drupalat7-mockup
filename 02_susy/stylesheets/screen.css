@@ -1,0 +1,35 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 9, ../sass/screen.scss */
+#page {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 14, ../sass/screen.scss */
+.sidebar {
+  width: 32.39437%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 18, ../sass/screen.scss */
+.main {
+  width: 66.19718%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
