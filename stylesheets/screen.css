@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 9, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 #page {
   *zoom: 1;
   max-width: 71em;
@@ -16,20 +16,267 @@
   display: table;
   clear: both;
 }
+@media (min-width: 50em) {
+  /* line 12, ../sass/screen.scss */
+  #page {
+    *zoom: 1;
+    max-width: 71em;
+    _width: 71em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 23, ../sass/screen.scss */
+  #page .sidebar {
+    width: 32.39437%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+  /* line 27, ../sass/screen.scss */
+  #page .main {
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+}
 
-/* line 14, ../sass/screen.scss */
-.sidebar {
-  width: 32.39437%;
+/* line 35, ../sass/screen.scss */
+section > hgroup {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+section > hgroup:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 38, ../sass/screen.scss */
+section > hgroup h1 {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 41, ../sass/screen.scss */
+section > hgroup h2 {
+  width: 49.29577%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
 }
 
-/* line 18, ../sass/screen.scss */
-.main {
-  width: 66.19718%;
+/* line 48, ../sass/screen.scss */
+.events .event.featured {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.events .event.featured:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 52, ../sass/screen.scss */
+.events .event.featured .image {
+  width: 32.39437%;
   float: left;
   margin-right: 1.40845%;
+  display: inline;
+}
+/* line 55, ../sass/screen.scss */
+.events .event.featured .text {
+  width: 66.19718%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+  /* line 46, ../sass/screen.scss */
+  .events {
+    *zoom: 1;
+    max-width: 71em;
+    _width: 71em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .events:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 63, ../sass/screen.scss */
+  .events article.featured {
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+  /* line 66, ../sass/screen.scss */
+  .events .upcoming {
+    width: 32.39437%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+  /* line 76, ../sass/screen.scss */
+  .news {
+    *zoom: 1;
+    max-width: 71em;
+    _width: 71em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .news:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 81, ../sass/screen.scss */
+  .news article.featured {
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+  /* line 84, ../sass/screen.scss */
+  .news .latest {
+    width: 32.39437%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+}
+
+/* line 91, ../sass/screen.scss */
+.about {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 94, ../sass/screen.scss */
+.about .argumente {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 97, ../sass/screen.scss */
+.about .vorteile {
+  width: 49.29577%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 102, ../sass/screen.scss */
+.projekte {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.projekte:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 105, ../sass/screen.scss */
+.projekte .image {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 108, ../sass/screen.scss */
+.projekte .description {
+  width: 49.29577%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 112, ../sass/screen.scss */
+.projekte .bereiche {
+  -webkit-column-count: 4;
+}
+
+/* line 119, ../sass/screen.scss */
+.community .member {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.community .member:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 122, ../sass/screen.scss */
+.community .member .user {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 125, ../sass/screen.scss */
+.community .member .organisations {
+  width: 49.29577%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
   display: inline;
 }

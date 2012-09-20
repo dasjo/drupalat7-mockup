@@ -6,15 +6,124 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
 
+
+$total-columns: 12;
+
 #page {
   @include container;
   // @include susy-grid-background;
+
+  @include at-breakpoint(30em 50em 12) {
+
+  }
+
+  @include at-breakpoint(50em 12) {
+    @include container;
+
+    .sidebar {
+      @include span-columns(4 omega);
+    }
+
+    .main {
+      @include span-columns(8);
+    }
+  }
+
 }
 
-.sidebar {
-  @include span-columns(4 omega);
+// Combined section headings.
+section > hgroup {
+  @include container;
+
+  h1 {
+    @include span-columns(6);
+  }
+  h2 {
+    @include span-columns(6 omega);
+  }
 }
 
-.main {
-  @include span-columns(8);
+.events {
+
+  .event.featured {
+
+    @include container;
+
+    .image {
+      @include span-columns(4);
+    }
+    .text {
+      @include span-columns(8 omega);
+    }
+  }
+
+  @include at-breakpoint(30em 50em 12) {
+    @include container;
+
+    article.featured {
+      @include span-columns(8);
+    }
+    .upcoming {
+      @include span-columns(4 omega);
+    }
+  }
+
+  @include at-breakpoint(50em 12) {
+
+  }
+}
+
+.news {
+
+  @include at-breakpoint(30em 50em 12) {
+    @include container;
+
+    article.featured {
+      @include span-columns(8);
+    }
+    .latest {
+      @include span-columns(4 omega);
+    }
+  }
+
+}
+
+.about {
+  @include container;
+
+  .argumente {
+    @include span-columns(6);
+  }
+  .vorteile {
+    @include span-columns(6 omega);
+  }
+}
+
+.projekte {
+  @include container;
+
+  .image {
+    @include span-columns(6);
+  }
+  .description {
+    @include span-columns(6 omega);
+  }
+
+  .bereiche {
+    -webkit-column-count: 4;
+  }
+}
+
+
+.community {
+  .member {
+    @include container;
+
+    .user {
+      @include span-columns(6);
+    }
+    .organisations {
+      @include span-columns(6 omega);
+    }
+  }
 }
