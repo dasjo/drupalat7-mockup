@@ -1,56 +1,65 @@
-/* line 1, ../sass/app.scss */
+/* line 3, ../sass/app.scss */
 h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-/* line 2, ../sass/app.scss */
+/* line 4, ../sass/app.scss */
 h2 {
   font-size: 1.5em;
-  margin: .75em 0;
+  margin: 1em 0;
 }
 
-/* line 3, ../sass/app.scss */
+/* line 5, ../sass/app.scss */
 h3 {
   font-size: 1.17em;
   margin: .83em 0;
 }
 
-/* line 4, ../sass/app.scss */
+/* line 6, ../sass/app.scss */
 h5 {
   font-size: .83em;
   margin: 1.5em 0;
 }
 
-/* line 5, ../sass/app.scss */
+/* line 7, ../sass/app.scss */
 h6 {
   font-size: .75em;
   margin: 1.67em 0;
 }
 
-/* line 7, ../sass/app.scss */
+/* line 9, ../sass/app.scss */
 h1, h2, h3, h4,
 h5, h6 {
   font-weight: bolder;
 }
 
-/* line 9, ../sass/app.scss */
+/* line 11, ../sass/app.scss */
 hgroup {
   font-size: 0.9em;
+  border-bottom: solid 3px #CB101F;
+  margin-bottom: 1em;
+}
+@media (min-width: 50em) {
+  /* line 18, ../sass/app.scss */
+  .sidebar hgroup {
+    border-bottom: solid 3px #A4A4A4;
+  }
 }
 
-/* line 11, ../sass/app.scss */
+/* line 24, ../sass/app.scss */
 hgroup h2 {
   font-style: italic;
+  font-weight: normal;
   text-align: right;
 }
 
-/* line 20, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
 .meta {
   font-style: italic;
 }
 
-/* line 24, ../sass/app.scss */
+/* line 38, ../sass/app.scss */
 .date {
   width: 8em;
   background: #fcfcfc;
@@ -59,7 +68,7 @@ hgroup h2 {
   padding-top: 2.1em;
 }
 
-/* line 31, ../sass/app.scss */
+/* line 45, ../sass/app.scss */
 .date time {
   font-family: Helvetica, sans-serif;
   font-size: 6em;
@@ -67,7 +76,7 @@ hgroup h2 {
   color: #9e9e9e;
 }
 
-/* line 37, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 .date time .top {
   background: #636363;
   font-size: 0.2em;
@@ -81,7 +90,7 @@ hgroup h2 {
   width: 6.5em;
 }
 
-/* line 48, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 .date time sub {
   background: #636363;
   font-size: 0.2em;
@@ -92,13 +101,13 @@ hgroup h2 {
   padding: 6px 0 6px 0;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 69, ../sass/app.scss */
 .event.featured .date2 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-/* line 61, ../sass/app.scss */
+/* line 75, ../sass/app.scss */
 .community .member-info {
   text-align: center;
 }

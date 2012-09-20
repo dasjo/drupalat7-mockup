@@ -33,21 +33,21 @@ $total-columns: 12;
 
 // Combined section headings.
 section > hgroup {
+  clear: both;
   @include container;
 
   h1 {
-    @include span-columns(6);
+    @include span-columns(4);
   }
   h2 {
-    @include span-columns(6 omega);
+    @include span-columns(8 omega);
   }
 }
 
 .events {
 
   .event.featured {
-
-    @include container;
+    @include clearfix;
 
     .image {
       @include span-columns(4);
@@ -58,7 +58,6 @@ section > hgroup {
   }
 
   @include at-breakpoint(30em 50em 12) {
-    @include container;
 
     article.featured {
       @include span-columns(8);
@@ -72,7 +71,6 @@ section > hgroup {
 .news {
 
   @include at-breakpoint(30em 50em 12) {
-    @include container;
 
     article.featured {
       @include span-columns(8);
@@ -85,7 +83,6 @@ section > hgroup {
 }
 
 .about {
-  @include container;
 
   .argumente {
     @include span-columns(6);
@@ -96,7 +93,6 @@ section > hgroup {
 }
 
 .projekte {
-  @include container;
 
   .image {
     @include span-columns(6);
@@ -119,7 +115,6 @@ section > hgroup {
 
 .community {
   .member {
-    @include container;
 
     .user {
       @include span-columns(6);

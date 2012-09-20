@@ -52,6 +52,7 @@
 
 /* line 35, ../sass/screen.scss */
 section > hgroup {
+  clear: both;
   *zoom: 1;
   max-width: 71em;
   _width: 71em;
@@ -66,37 +67,26 @@ section > hgroup:after {
   display: table;
   clear: both;
 }
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 section > hgroup h1 {
-  width: 49.29577%;
+  width: 32.39437%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 41, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 section > hgroup h2 {
-  width: 49.29577%;
+  width: 66.19718%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .events .event.featured {
+  overflow: hidden;
   *zoom: 1;
-  max-width: 71em;
-  _width: 71em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.events .event.featured:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 /* line 52, ../sass/screen.scss */
 .events .event.featured .image {
@@ -114,30 +104,14 @@ section > hgroup h2 {
   display: inline;
 }
 @media (min-width: 30em) and (max-width: 50em) {
-  /* line 46, ../sass/screen.scss */
-  .events {
-    *zoom: 1;
-    max-width: 71em;
-    _width: 71em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  .events:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* line 63, ../sass/screen.scss */
+  /* line 62, ../sass/screen.scss */
   .events article.featured {
     width: 66.19718%;
     float: left;
     margin-right: 1.40845%;
     display: inline;
   }
-  /* line 66, ../sass/screen.scss */
+  /* line 65, ../sass/screen.scss */
   .events .upcoming {
     width: 32.39437%;
     float: right;
@@ -148,30 +122,14 @@ section > hgroup h2 {
 }
 
 @media (min-width: 30em) and (max-width: 50em) {
-  /* line 72, ../sass/screen.scss */
-  .news {
-    *zoom: 1;
-    max-width: 71em;
-    _width: 71em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  .news:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* line 77, ../sass/screen.scss */
+  /* line 75, ../sass/screen.scss */
   .news article.featured {
     width: 66.19718%;
     float: left;
     margin-right: 1.40845%;
     display: inline;
   }
-  /* line 80, ../sass/screen.scss */
+  /* line 78, ../sass/screen.scss */
   .news .latest {
     width: 32.39437%;
     float: right;
@@ -182,29 +140,13 @@ section > hgroup h2 {
 }
 
 /* line 87, ../sass/screen.scss */
-.about {
-  *zoom: 1;
-  max-width: 71em;
-  _width: 71em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.about:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 90, ../sass/screen.scss */
 .about .argumente {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 93, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .about .vorteile {
   width: 49.29577%;
   float: right;
@@ -213,30 +155,14 @@ section > hgroup h2 {
   display: inline;
 }
 
-/* line 98, ../sass/screen.scss */
-.projekte {
-  *zoom: 1;
-  max-width: 71em;
-  _width: 71em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.projekte:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 101, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .projekte .image {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 104, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .projekte .description {
   width: 49.29577%;
   float: right;
@@ -244,41 +170,25 @@ section > hgroup h2 {
   #margin-left: -1em;
   display: inline;
 }
-/* line 108, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .projekte .bereiche {
   -webkit-column-count: 2;
 }
 @media (min-width: 30em) {
-  /* line 113, ../sass/screen.scss */
+  /* line 109, ../sass/screen.scss */
   .projekte .bereiche {
     -webkit-column-count: 4;
   }
 }
 
-/* line 121, ../sass/screen.scss */
-.community .member {
-  *zoom: 1;
-  max-width: 71em;
-  _width: 71em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.community .member:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 124, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .community .member .user {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 127, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .community .member .organisations {
   width: 49.29577%;
   float: right;
