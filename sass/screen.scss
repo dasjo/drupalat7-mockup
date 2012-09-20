@@ -67,10 +67,6 @@ section > hgroup {
       @include span-columns(4 omega);
     }
   }
-
-  @include at-breakpoint(50em 12) {
-
-  }
 }
 
 .news {
@@ -110,7 +106,13 @@ section > hgroup {
   }
 
   .bereiche {
-    -webkit-column-count: 4;
+    -webkit-column-count: 2;
+  }
+
+  @include at-breakpoint(30em 12) {
+    .bereiche {
+      -webkit-column-count: 4;
+    }
   }
 }
 

@@ -148,7 +148,7 @@ section > hgroup h2 {
 }
 
 @media (min-width: 30em) and (max-width: 50em) {
-  /* line 76, ../sass/screen.scss */
+  /* line 72, ../sass/screen.scss */
   .news {
     *zoom: 1;
     max-width: 71em;
@@ -164,14 +164,14 @@ section > hgroup h2 {
     display: table;
     clear: both;
   }
-  /* line 81, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .news article.featured {
     width: 66.19718%;
     float: left;
     margin-right: 1.40845%;
     display: inline;
   }
-  /* line 84, ../sass/screen.scss */
+  /* line 80, ../sass/screen.scss */
   .news .latest {
     width: 32.39437%;
     float: right;
@@ -181,7 +181,7 @@ section > hgroup h2 {
   }
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .about {
   *zoom: 1;
   max-width: 71em;
@@ -197,14 +197,14 @@ section > hgroup h2 {
   display: table;
   clear: both;
 }
-/* line 94, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .about .argumente {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 97, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .about .vorteile {
   width: 49.29577%;
   float: right;
@@ -213,7 +213,7 @@ section > hgroup h2 {
   display: inline;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .projekte {
   *zoom: 1;
   max-width: 71em;
@@ -229,14 +229,14 @@ section > hgroup h2 {
   display: table;
   clear: both;
 }
-/* line 105, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .projekte .image {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 108, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .projekte .description {
   width: 49.29577%;
   float: right;
@@ -244,12 +244,18 @@ section > hgroup h2 {
   #margin-left: -1em;
   display: inline;
 }
-/* line 112, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .projekte .bereiche {
-  -webkit-column-count: 4;
+  -webkit-column-count: 2;
+}
+@media (min-width: 30em) {
+  /* line 113, ../sass/screen.scss */
+  .projekte .bereiche {
+    -webkit-column-count: 4;
+  }
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .community .member {
   *zoom: 1;
   max-width: 71em;
@@ -265,14 +271,14 @@ section > hgroup h2 {
   display: table;
   clear: both;
 }
-/* line 122, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .community .member .user {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 125, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .community .member .organisations {
   width: 49.29577%;
   float: right;
