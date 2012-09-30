@@ -59,25 +59,36 @@ section > hgroup {
 
   @include at-breakpoint(30em 50em 12) {
 
+    & {
+      @include span-columns(6);
+    }
+
+    /*
     article.featured {
       @include span-columns(8);
     }
     .upcoming {
       @include span-columns(4 omega);
     }
+    */
   }
 }
 
 .news {
 
   @include at-breakpoint(30em 50em 12) {
+    & {
+        @include span-columns(6 omega);
+    }
 
+    /*
     article.featured {
       @include span-columns(8);
     }
     .latest {
       @include span-columns(4 omega);
     }
+    */
   }
 
 }
