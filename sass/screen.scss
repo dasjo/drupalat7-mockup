@@ -108,11 +108,11 @@ section > hgroup {
 
 @include breakpoint($bkpt-page-medium) {
 
-  .news {
+  .news, .community, .statement {
     @include span-columns(4);
   }
-  .community {
-    @include span-columns(4);
+  .statement {
+    @include omega;
   }
 
 }
