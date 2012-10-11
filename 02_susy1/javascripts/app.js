@@ -28,7 +28,7 @@
 
 
     $("#featured").orbit();
-    // $("#featured-projekte").orbit({ fluid: '16x6' });
+    $("#featured-projekte").orbit({ fluid: '16x6' });
 
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids

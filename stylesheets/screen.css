@@ -1,6 +1,16 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 12, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
+.header .logo a {
+  display: block;
+  background: url("../images/drupalat.png") no-repeat 100% 100%;
+  height: 75px;
+  width: 394px;
+  margin: 12px 0;
+  color: transparent;
+}
+
+/* line 24, ../sass/screen.scss */
 #page {
   *zoom: 1;
   max-width: 71em;
@@ -16,190 +26,234 @@
   display: table;
   clear: both;
 }
-@media (min-width: 50em) {
-  /* line 12, ../sass/screen.scss */
-  #page {
-    *zoom: 1;
-    max-width: 71em;
-    _width: 71em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
+
+/* line 30, ../sass/screen.scss */
+section > hgroup {
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 23.125em) {
+  /* line 35, ../sass/screen.scss */
+  section > hgroup h1 {
+    float: left;
   }
-  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  #page:after {
-    content: "";
-    display: table;
-    clear: both;
+  /* line 38, ../sass/screen.scss */
+  section > hgroup h2 {
+    float: right;
   }
-  /* line 23, ../sass/screen.scss */
-  #page .sidebar {
+}
+
+/* line 46, ../sass/screen.scss */
+.events {
+  text-align: right;
+}
+/* line 48, ../sass/screen.scss */
+.events h1 {
+  float: none;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@media (min-width: 30.625em) {
+  /* line 56, ../sass/screen.scss */
+  .events {
+    width: 49.29577%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+
+  /* line 59, ../sass/screen.scss */
+  .about {
+    width: 49.29577%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+}
+@media (min-width: 54.0625em) {
+  /* line 65, ../sass/screen.scss */
+  .events {
     width: 32.39437%;
     float: right;
     margin-right: 0;
     #margin-left: -1em;
     display: inline;
   }
-  /* line 27, ../sass/screen.scss */
-  #page .main {
+
+  /* line 68, ../sass/screen.scss */
+  .about {
     width: 66.19718%;
     float: left;
     margin-right: 1.40845%;
     display: inline;
   }
-}
-
-/* line 35, ../sass/screen.scss */
-section > hgroup {
-  clear: both;
-  *zoom: 1;
-  max-width: 71em;
-  _width: 71em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-section > hgroup:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 39, ../sass/screen.scss */
-section > hgroup h1 {
-  width: 32.39437%;
-  float: left;
-  margin-right: 1.40845%;
-  display: inline;
-}
-/* line 42, ../sass/screen.scss */
-section > hgroup h2 {
-  width: 66.19718%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-
-/* line 49, ../sass/screen.scss */
-.events .event.featured {
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 52, ../sass/screen.scss */
-.events .event.featured .image {
-  width: 32.39437%;
-  float: left;
-  margin-right: 1.40845%;
-  display: inline;
-}
-/* line 55, ../sass/screen.scss */
-.events .event.featured .text {
-  width: 66.19718%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-@media (min-width: 30em) and (max-width: 50em) {
-  /* line 47, ../sass/screen.scss */
-  .events {
-    /*
-    article.featured {
-      @include span-columns(8);
-    }
-    .upcoming {
-      @include span-columns(4 omega);
-    }
-    */
-  }
-  /* line 62, ../sass/screen.scss */
-  .events {
-    width: 49.29577%;
+  /* line 71, ../sass/screen.scss */
+  .about .vorteile {
+    width: 66.19718%;
     float: left;
     margin-right: 1.40845%;
     display: inline;
   }
-}
-
-@media (min-width: 30em) and (max-width: 50em) {
-  /* line 77, ../sass/screen.scss */
-  .news {
-    /*
-    article.featured {
-      @include span-columns(8);
-    }
-    .latest {
-      @include span-columns(4 omega);
-    }
-    */
-  }
-  /* line 80, ../sass/screen.scss */
-  .news {
-    width: 49.29577%;
+  /* line 74, ../sass/screen.scss */
+  .about .mehr {
+    width: 32.39437%;
     float: right;
     margin-right: 0;
     #margin-left: -1em;
     display: inline;
   }
 }
-
-/* line 98, ../sass/screen.scss */
-.about .argumente {
-  width: 49.29577%;
-  float: left;
-  margin-right: 1.40845%;
-  display: inline;
-}
-/* line 101, ../sass/screen.scss */
-.about .vorteile {
-  width: 49.29577%;
+/* line 81, ../sass/screen.scss */
+.projekte {
+  width: 100%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
 }
-
-/* line 108, ../sass/screen.scss */
-.projekte .image {
+/* line 83, ../sass/screen.scss */
+.projekte .projekt {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 111, ../sass/screen.scss */
-.projekte .description {
-  width: 49.29577%;
+/* line 36, ../sass/_base.scss */
+.projekte .projekt:nth-child(2n) {
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
 }
-/* line 115, ../sass/screen.scss */
-.projekte .bereiche {
-  -webkit-column-count: 2;
+/* line 41, ../sass/_base.scss */
+.projekte .projekt:first-child, .projekte .projekt:nth-child(2n+3) {
+  clear: both;
 }
-@media (min-width: 30em) {
-  /* line 120, ../sass/screen.scss */
-  .projekte .bereiche {
-    -webkit-column-count: 4;
+/* line 87, ../sass/screen.scss */
+.projekte .projekt:nth-child(3), .projekte .projekt:nth-child(4) {
+  display: none;
+}
+
+@media (min-width: 30.625em) {
+  /* line 96, ../sass/screen.scss */
+  .projekte .projekt {
+    float: none;
+    width: auto;
+    margin-right: auto;
+    #margin-left: auto;
+    display: block;
+    width: 23.94366%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+  /* line 50, ../sass/_base.scss */
+  .projekte .projekt:nth-child(1n) {
+    float: left;
+    margin-right: 1.40845%;
+    #margin-left: 0;
+  }
+  /* line 55, ../sass/_base.scss */
+  .projekte .projekt:nth-child(1n) {
+    clear: none;
+  }
+  /* line 36, ../sass/_base.scss */
+  .projekte .projekt:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+  /* line 41, ../sass/_base.scss */
+  .projekte .projekt:first-child, .projekte .projekt:nth-child(4n+5) {
+    clear: both;
+  }
+  /* line 101, ../sass/screen.scss */
+  .projekte .projekt:nth-child(3), .projekte .projekt:nth-child(4) {
+    display: block;
   }
 }
+@media (min-width: 30.625em) {
+  /* line 111, ../sass/screen.scss */
+  .news {
+    width: 32.39437%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
 
-/* line 130, ../sass/screen.scss */
-.community .member .user {
-  width: 49.29577%;
+  /* line 114, ../sass/screen.scss */
+  .community {
+    width: 32.39437%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+}
+/* line 121, ../sass/screen.scss */
+.community img {
+  width: 15.49296%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 133, ../sass/screen.scss */
-.community .member .organisations {
-  width: 49.29577%;
+/* line 36, ../sass/_base.scss */
+.community img:nth-child(6n) {
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+}
+/* line 41, ../sass/_base.scss */
+.community img:first-child, .community img:nth-child(6n+7) {
+  clear: both;
+}
+
+/* line 129, ../sass/screen.scss */
+.event .links {
+  float: right;
+}
+/* line 131, ../sass/screen.scss */
+.event .links li {
+  list-style: none;
+  float: left;
+  margin-left: 0.5em;
+}
+
+/* line 138, ../sass/screen.scss */
+.event.featured {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 141, ../sass/screen.scss */
+.event.featured .image {
+  float: left;
+  width: 44%;
+}
+
+/* line 149, ../sass/screen.scss */
+.events .upcoming {
+  display: none;
+}
+
+/* line 154, ../sass/screen.scss */
+.projekte .description {
+  display: none;
+}
+/* line 155, ../sass/screen.scss */
+.projekte .weitere {
+  display: none;
+}
+
+/* line 159, ../sass/screen.scss */
+.news .latest {
+  display: none;
+}
+
+/* line 165, ../sass/screen.scss */
+img {
+  width: 100%;
+  height: auto;
 }

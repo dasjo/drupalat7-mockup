@@ -9,129 +9,160 @@
 
 $total-columns: 12;
 
+
+.header .logo {
+  a {
+    display: block;
+    background: url("../images/drupalat.png") no-repeat 100% 100%;
+    height: 75px;
+    width: 394px;
+    margin: 12px 0;
+    color: transparent;
+  }
+}
+
 #page {
   @include container;
   // @include susy-grid-background;
+}
 
-  @include at-breakpoint(30em 50em 12) {
+// Combined section headings.
+section > hgroup {
+  @include clearfix;
+
+  @include breakpoint($bkpt-page-small) {
+
+    h1 {
+      float: left;
+    }
+    h2 {
+      float: right;
+    }
 
   }
+}
 
-  @include at-breakpoint(50em 12) {
-    @include container;
 
-    .sidebar {
+.events {
+  text-align: right;
+  h1 {
+    float: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+
+@include breakpoint($bkpt-page-medium) {
+  .events {
+    @include span-columns(6 omega);
+  }
+  .about {
+    @include span-columns(6);
+  }
+}
+
+@include breakpoint($bkpt-page-large) {
+  .events {
+    @include span-columns(4 omega);
+  }
+  .about {
+    @include span-columns(8);
+
+    .vorteile {
+      @include span-columns(8);
+    }
+    .mehr {
       @include span-columns(4 omega);
     }
 
-    .main {
-      @include span-columns(8);
+  }
+}
+
+.projekte {
+  @include span-columns(12 omega);
+  .projekt {
+    @include block-columns(2);
+
+    // Only show two project on mobile.
+    &:nth-child(3), &:nth-child(4) {
+      display: none;
+    }
+  }
+}
+
+@include breakpoint($bkpt-page-medium) {
+
+  .projekte {
+    .projekt {
+      @include reset-block-columns;
+      @include block-columns(4);
+
+      // Show all 4 projects on lager screens.
+      &:nth-child(3), &:nth-child(4) {
+        display: block;
+      }
     }
   }
 
 }
 
-// Combined section headings.
-section > hgroup {
-  clear: both;
-  @include container;
+@include breakpoint($bkpt-page-medium) {
 
-  h1 {
+  .news {
     @include span-columns(4);
   }
-  h2 {
-    @include span-columns(8 omega);
+  .community {
+    @include span-columns(4);
+  }
+
+}
+
+.community {
+  img {
+    @include block-columns(6);
+  }
+}
+
+
+// inner
+
+.event .links {
+  float: right;
+  li {
+    list-style: none;
+    float: left;
+    margin-left: 0.5em;
+  }
+}
+
+.event.featured {
+  @include clearfix;
+
+  .image {
+    float: left;
+    width: 44%;
   }
 }
 
 .events {
 
-  .event.featured {
-    @include clearfix;
+  .upcoming { display: none; }
 
-    .image {
-      @include span-columns(4);
-    }
-    .text {
-      @include span-columns(8 omega);
-    }
-  }
-
-  @include at-breakpoint(30em 50em 12) {
-
-    & {
-      @include span-columns(6);
-    }
-
-    /*
-    article.featured {
-      @include span-columns(8);
-    }
-    .upcoming {
-      @include span-columns(4 omega);
-    }
-    */
-  }
-}
-
-.news {
-
-  @include at-breakpoint(30em 50em 12) {
-    & {
-        @include span-columns(6 omega);
-    }
-
-    /*
-    article.featured {
-      @include span-columns(8);
-    }
-    .latest {
-      @include span-columns(4 omega);
-    }
-    */
-  }
-
-}
-
-.about {
-
-  .argumente {
-    @include span-columns(6);
-  }
-  .vorteile {
-    @include span-columns(6 omega);
-  }
 }
 
 .projekte {
+  .description { display: none; }
+  .weitere { display: none; }
+}
 
-  .image {
-    @include span-columns(6);
-  }
-  .description {
-    @include span-columns(6 omega);
-  }
-
-  .bereiche {
-    -webkit-column-count: 2;
-  }
-
-  @include at-breakpoint(30em 12) {
-    .bereiche {
-      -webkit-column-count: 4;
-    }
+.news {
+  .latest {
+    display: none;
   }
 }
 
 
-.community {
-  .member {
-
-    .user {
-      @include span-columns(6);
-    }
-    .organisations {
-      @include span-columns(6 omega);
-    }
-  }
+img {
+  width: 100%;
+  height: auto;
 }

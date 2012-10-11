@@ -1,0 +1,205 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 12, ../sass/screen.scss */
+#page {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 50em) {
+  /* line 12, ../sass/screen.scss */
+  #page {
+    *zoom: 1;
+    max-width: 71em;
+    _width: 71em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 23, ../sass/screen.scss */
+  #page .sidebar {
+    width: 32.39437%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+  /* line 27, ../sass/screen.scss */
+  #page .main {
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+}
+
+/* line 35, ../sass/screen.scss */
+section > hgroup {
+  clear: both;
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+section > hgroup:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 39, ../sass/screen.scss */
+section > hgroup h1 {
+  width: 32.39437%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 42, ../sass/screen.scss */
+section > hgroup h2 {
+  width: 66.19718%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 49, ../sass/screen.scss */
+.events .event.featured {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 52, ../sass/screen.scss */
+.events .event.featured .image {
+  width: 32.39437%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 55, ../sass/screen.scss */
+.events .event.featured .text {
+  width: 66.19718%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+  /* line 47, ../sass/screen.scss */
+  .events {
+    /*
+    article.featured {
+      @include span-columns(8);
+    }
+    .upcoming {
+      @include span-columns(4 omega);
+    }
+    */
+  }
+  /* line 62, ../sass/screen.scss */
+  .events {
+    width: 49.29577%;
+    float: left;
+    margin-right: 1.40845%;
+    display: inline;
+  }
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+  /* line 77, ../sass/screen.scss */
+  .news {
+    /*
+    article.featured {
+      @include span-columns(8);
+    }
+    .latest {
+      @include span-columns(4 omega);
+    }
+    */
+  }
+  /* line 80, ../sass/screen.scss */
+  .news {
+    width: 49.29577%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+}
+
+/* line 98, ../sass/screen.scss */
+.about .argumente {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 101, ../sass/screen.scss */
+.about .vorteile {
+  width: 49.29577%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 108, ../sass/screen.scss */
+.projekte .image {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 111, ../sass/screen.scss */
+.projekte .description {
+  width: 49.29577%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 115, ../sass/screen.scss */
+.projekte .bereiche {
+  -webkit-column-count: 2;
+}
+@media (min-width: 30em) {
+  /* line 120, ../sass/screen.scss */
+  .projekte .bereiche {
+    -webkit-column-count: 4;
+  }
+}
+
+/* line 130, ../sass/screen.scss */
+.community .member .user {
+  width: 49.29577%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+/* line 133, ../sass/screen.scss */
+.community .member .organisations {
+  width: 49.29577%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
