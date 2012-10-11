@@ -78,3 +78,12 @@ h5, h6          { font-weight: bolder }
     text-align: center;
 }
 
+.more {
+  font-size: 0.9em;
+  font-style: italic;
+
+  .projekte & {
+    text-align: right;
+  }
+}
+

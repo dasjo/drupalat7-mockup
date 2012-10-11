@@ -108,3 +108,13 @@ h5, h6 {
 .community {
   text-align: center;
 }
+
+/* line 81, ../sass/app.scss */
+.more {
+  font-size: 0.9em;
+  font-style: italic;
+}
+/* line 85, ../sass/app.scss */
+.projekte .more {
+  text-align: right;
+}
