@@ -113,6 +113,7 @@ section > hgroup {
   }
   .statement {
     @include omega;
+    text-align: right;
   }
 
 }

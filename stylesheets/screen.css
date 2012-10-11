@@ -190,9 +190,10 @@ section > hgroup {
     margin-right: 0;
     #margin-left: -1em;
     display: inline;
+    text-align: right;
   }
 }
-/* line 121, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .community img {
   width: 15.49296%;
   float: left;
@@ -211,48 +212,48 @@ section > hgroup {
   clear: both;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .event .links {
   float: right;
 }
-/* line 131, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .event .links li {
   list-style: none;
   float: left;
   margin-left: 0.5em;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .event.featured {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 141, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .event.featured .image {
   float: left;
   width: 44%;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .events .upcoming {
   display: none;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .projekte .description {
   display: none;
 }
-/* line 155, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .projekte .weitere {
   display: none;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .news .latest {
   display: none;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 img {
   width: 100%;
   height: auto;
