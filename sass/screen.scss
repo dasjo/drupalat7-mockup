@@ -26,6 +26,14 @@ $total-columns: 12;
   // @include susy-grid-background;
 }
 
+section {
+  margin-bottom: 1em;
+
+  &.projekte {
+    margin-bottom: 2em;
+  }
+}
+
 // Combined section headings.
 section > hgroup {
   @include clearfix;
@@ -42,15 +50,6 @@ section > hgroup {
   }
 }
 
-
-.events {
-  text-align: right;
-  h1 {
-    float: none;
-    font-style: italic;
-    font-weight: normal;
-  }
-}
 
 @include breakpoint($bkpt-page-medium) {
   .events {
@@ -118,6 +117,27 @@ section > hgroup {
 
 }
 
+.footer {
+  @include container;
+}
+
+.footer section {
+  @include block-columns(2);
+}
+
+.footer footer {
+  clear: both;
+}
+
+@include breakpoint($bkpt-page-medium) {
+
+  .footer section {
+    @include reset-block-columns;
+    @include block-columns(4);
+  }
+
+}
+
 .community {
   img {
     @include block-columns(6);
@@ -157,6 +177,7 @@ section > hgroup {
 }
 
 .news {
+  & > h1 { display: none; }
   .latest {
     display: none;
   }
@@ -166,4 +187,36 @@ section > hgroup {
 img {
   width: 100%;
   height: auto;
+}
+
+.events, .news {
+  h1 {
+    float: none;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+.events {
+  text-align: right;
+}
+
+.statement {
+  font-style: italic;
+
+  p {
+    font-size: 1.3em;
+  }
+}
+
+.footer, .footer h3, .footer li {
+  color: #999;
+  font-size: 0.9em;
+
+  a.button {
+    padding: 7px;
+  }
+}
+
+.footer li {
+  list-style: none;
 }
