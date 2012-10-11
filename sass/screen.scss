@@ -13,11 +13,20 @@ $total-columns: 12;
 .header .logo {
   a {
     display: block;
-    background: url("../images/drupalat.png") no-repeat 100% 100%;
+    background-image: url("../images/drupalat.png");
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
     height: 75px;
     width: 394px;
     margin: 12px 0;
     color: transparent;
+  }
+}
+
+
+@include breakpoint($bkpt-logo-normal) {
+  .header .logo a {
+    background-size: 100% 100%;
   }
 }
 
