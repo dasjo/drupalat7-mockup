@@ -28,7 +28,7 @@
   padding-left: 2em;
   padding-right: 2em;
 }
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #page:after {
   content: "";
   display: table;
@@ -60,7 +60,7 @@ section > hgroup {
   }
 }
 
-@media (min-width: 30.625em) {
+@media (min-width: 30em) {
   /* line 64, ../sass/screen.scss */
   .events {
     width: 48.78049%;
@@ -78,31 +78,32 @@ section > hgroup {
     display: inline;
   }
 }
-@media (min-width: 54.0625em) {
+@media (min-width: 51.25em) {
   /* line 73, ../sass/screen.scss */
   .events {
-    width: 31.70732%;
+    width: 40.2439%;
     float: right;
     margin-right: 0;
     #margin-left: -2em;
     display: inline;
+    padding-left: 1em;
   }
 
-  /* line 76, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .about {
-    width: 65.85366%;
+    width: 57.31707%;
     float: left;
     margin-right: 2.43902%;
     display: inline;
   }
-  /* line 79, ../sass/screen.scss */
+  /* line 80, ../sass/screen.scss */
   .about .vorteile {
     width: 65.85366%;
     float: left;
     margin-right: 2.43902%;
     display: inline;
   }
-  /* line 82, ../sass/screen.scss */
+  /* line 83, ../sass/screen.scss */
   .about .mehr {
     width: 31.70732%;
     float: right;
@@ -111,7 +112,7 @@ section > hgroup {
     display: inline;
   }
 }
-/* line 89, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .projekte {
   width: 100%;
   float: right;
@@ -119,7 +120,7 @@ section > hgroup {
   #margin-left: -2em;
   display: inline;
 }
-/* line 91, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .projekte .projekt {
   width: 48.78049%;
   float: left;
@@ -137,13 +138,13 @@ section > hgroup {
 .projekte .projekt:first-child, .projekte .projekt:nth-child(2n+3) {
   clear: both;
 }
-/* line 95, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .projekte .projekt:nth-child(3), .projekte .projekt:nth-child(4) {
   display: none;
 }
 
-@media (min-width: 30.625em) {
-  /* line 104, ../sass/screen.scss */
+@media (min-width: 30em) {
+  /* line 105, ../sass/screen.scss */
   .projekte .projekt {
     float: none;
     width: auto;
@@ -176,13 +177,13 @@ section > hgroup {
   .projekte .projekt:first-child, .projekte .projekt:nth-child(4n+5) {
     clear: both;
   }
-  /* line 109, ../sass/screen.scss */
+  /* line 110, ../sass/screen.scss */
   .projekte .projekt:nth-child(3), .projekte .projekt:nth-child(4) {
     display: block;
   }
 }
-@media (min-width: 30.625em) {
-  /* line 119, ../sass/screen.scss */
+@media (min-width: 30em) {
+  /* line 120, ../sass/screen.scss */
   .news, .community, .statement {
     width: 31.70732%;
     float: left;
@@ -190,16 +191,17 @@ section > hgroup {
     display: inline;
   }
 
-  /* line 122, ../sass/screen.scss */
+  /* line 123, ../sass/screen.scss */
   .statement {
     float: right;
     margin-right: 0;
     #margin-left: -2em;
     display: inline;
     text-align: right;
+    padding-left: 1.5em;
   }
 }
-/* line 129, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .footer {
   *zoom: 1;
   max-width: 82em;
@@ -209,14 +211,14 @@ section > hgroup {
   padding-left: 2em;
   padding-right: 2em;
 }
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .footer:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .footer section {
   width: 48.78049%;
   float: left;
@@ -235,13 +237,13 @@ section > hgroup {
   clear: both;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .footer footer {
   clear: both;
 }
 
-@media (min-width: 30.625em) {
-  /* line 143, ../sass/screen.scss */
+@media (min-width: 30em) {
+  /* line 145, ../sass/screen.scss */
   .footer section {
     float: none;
     width: auto;
@@ -275,7 +277,7 @@ section > hgroup {
     clear: both;
   }
 }
-/* line 151, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .community img {
   width: 14.63415%;
   float: left;
@@ -294,89 +296,89 @@ section > hgroup {
   clear: both;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .event .links {
   float: right;
 }
-/* line 161, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .event .links li {
   list-style: none;
   float: left;
   margin-left: 0.5em;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .event.featured {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 171, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .event.featured .image {
   float: left;
   width: 44%;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .events .upcoming {
   display: none;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .projekte .description {
   display: none;
 }
-/* line 185, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .projekte .weitere {
   display: none;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .news > h1 {
   display: none;
 }
-/* line 190, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .news .latest {
   display: none;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 img {
   width: 100%;
   height: auto;
 }
 
-/* line 202, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .events h1, .news h1 {
   float: none;
   font-style: italic;
   font-weight: normal;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .events {
   text-align: right;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .statement {
   font-style: italic;
 }
-/* line 215, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .statement p {
   font-size: 1.3em;
 }
 
-/* line 220, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .footer, .footer h3, .footer li {
   color: #999;
   font-size: 0.9em;
 }
-/* line 224, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .footer a.button, .footer h3 a.button, .footer li a.button {
   padding: 7px;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .footer li {
   list-style: none;
 }

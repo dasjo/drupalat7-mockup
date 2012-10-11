@@ -71,10 +71,11 @@ section > hgroup {
 
 @include breakpoint($bkpt-page-large) {
   .events {
-    @include span-columns(4 omega);
+    @include span-columns(5 omega);
+    padding-left: 1em;
   }
   .about {
-    @include span-columns(8);
+    @include span-columns(7);
 
     .vorteile {
       @include span-columns(8);
@@ -122,6 +123,7 @@ section > hgroup {
   .statement {
     @include omega;
     text-align: right;
+    padding-left: 1.5em;
   }
 
 }
