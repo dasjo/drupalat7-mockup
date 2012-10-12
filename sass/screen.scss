@@ -7,7 +7,7 @@
 /* Layout */
 
 
-$total-columns: 12;
+$total-columns: 20;
 
 
 .header .logo {
@@ -32,7 +32,7 @@ $total-columns: 12;
 
 #page {
   @include container;
-  // @include susy-grid-background;
+  @include susy-grid-background;
 }
 
 section {
@@ -62,38 +62,38 @@ section > hgroup {
 
 @include breakpoint($bkpt-page-medium) {
   .events {
-    @include span-columns(6 omega);
+    @include span-columns(10 omega);
   }
   .about {
-    @include span-columns(6);
+    @include span-columns(10);
   }
 }
 
 @include breakpoint($bkpt-page-large) {
   .events {
-    @include span-columns(5 omega);
+    @include span-columns(8 omega);
     padding-left: 1em;
   }
   .about {
-    @include span-columns(7);
+    @include span-columns(12);
 
     .vorteile {
-      @include span-columns(8);
+      @include span-columns(8, 12);
     }
     .mehr {
-      @include span-columns(4 omega);
+      @include span-columns(4 omega, 12);
     }
 
   }
 }
 
 .projekte {
-  @include span-columns(12 omega);
+  @include span-columns(20 omega);
   .projekt {
-    @include block-columns(2);
+    // @include block-columns(2);
 
     // Only show two project on mobile.
-    &:nth-child(3), &:nth-child(4) {
+    &:nth-child(n+3) {
       display: none;
     }
   }
@@ -101,27 +101,37 @@ section > hgroup {
 
 @include breakpoint($bkpt-page-medium) {
 
-  .projekte {
-    .projekt {
-      @include reset-block-columns;
-      @include block-columns(4);
+  @include with-grid-settings(20, 4em, 0.2em, 0em) {
+    .projekte {
+      .projekt {
+        // @include reset-block-columns;
+        @include block-columns(5,5);
 
-      // Show all 4 projects on lager screens.
-      &:nth-child(3), &:nth-child(4) {
-        display: block;
+        // Show all 4 projects on lager screens.
+        &:nth-child(n+3) {
+          display: block;
+        }
       }
     }
-  }
+   }
 
 }
 
 @include breakpoint($bkpt-page-medium) {
 
-  .news, .community, .statement {
-    @include span-columns(4);
+  .news, {
+    @include span-columns(8);
   }
+
+  .community {
+    @include span-columns(7);
+  }
+
   .statement {
-    @include omega;
+    @include span-columns(5 omega);
+  }
+
+  .statement {
     text-align: right;
     padding-left: 1.5em;
   }
@@ -151,7 +161,7 @@ section > hgroup {
 
 .community {
   img {
-    @include block-columns(6);
+    @include block-columns(6, 6);
   }
 }
 

@@ -47,7 +47,7 @@ h5, h6 {
 }
 
 /* line 27, ../sass/app.scss */
-.about hgroup {
+.about hgroup, .community hgroup {
   border-bottom: solid 3px #CB101F;
 }
 

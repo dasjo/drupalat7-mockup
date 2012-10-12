@@ -9,11 +9,11 @@
 // Basic Grid
 
 $total-columns  : 12;
-$column-width   : 5em;
-$gutter-width   : 2em;
+$column-width   : 3em;
+$gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
-$show-grid-backgrounds  : true;
+$show-grid-backgrounds  : false;
 
 
 // Breakpoint
@@ -27,12 +27,10 @@ $bkpt-page-medium: 480px;
 $bkpt-page-large: 820px;
 
 
-
-
 // omega
 
-@mixin block-columns($columns) {
-  @include span-columns($total-columns / $columns);
+@mixin block-columns($columns, $total: $total-columns) {
+  @include span-columns($total / $columns, $total);
 
 // The last block in a row gets the omega postfix.
   &:nth-child(#{$columns}n) {
