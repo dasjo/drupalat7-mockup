@@ -350,8 +350,6 @@ img {
 /* line 204, ../sass/screen.scss */
 .events h1, .news h1 {
   float: none;
-  font-style: italic;
-  font-weight: normal;
 }
 
 /* line 210, ../sass/screen.scss */
@@ -359,14 +357,6 @@ img {
   text-align: right;
 }
 
-/* line 214, ../sass/screen.scss */
-.statement {
-  font-style: italic;
-}
-/* line 216, ../sass/screen.scss */
-.statement h1 {
-  font-weight: normal;
-}
 /* line 219, ../sass/screen.scss */
 .statement p {
   font-size: 1.3em;
