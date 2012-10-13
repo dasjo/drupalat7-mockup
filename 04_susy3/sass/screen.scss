@@ -6,6 +6,10 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
 
+
+$total-columns: 20;
+
+
 .header .logo {
   a {
     display: block;
@@ -58,33 +62,33 @@ section > hgroup {
 
 @include breakpoint($bkpt-page-medium) {
   .events {
-    @include span-columns(6 omega);
+    @include span-columns(10 omega);
   }
   .about {
-    @include span-columns(6);
+    @include span-columns(10);
   }
 }
 
 @include breakpoint($bkpt-page-large) {
   .events {
-    @include span-columns(4 omega);
+    @include span-columns(8 omega);
     padding-left: 1em;
   }
   .about {
-    @include span-columns(8);
+    @include span-columns(12);
 
     .vorteile {
-      @include span-columns(5, 8);
+      @include span-columns(8, 12);
     }
     .mehr {
-      @include span-columns(3 omega, 8);
+      @include span-columns(4 omega, 12);
     }
 
   }
 }
 
 .projekte {
-  @include span-columns(12 omega);
+  @include span-columns(20 omega);
   .projekt {
     // @include block-columns(2);
 
@@ -97,11 +101,11 @@ section > hgroup {
 
 @include breakpoint($bkpt-page-medium) {
 
-  @include with-grid-settings(20, 3em, 0.2em, 0em) {
+  @include with-grid-settings(20, 4em, 0.2em, 0em) {
     .projekte {
       .projekt {
         // @include reset-block-columns;
-        @include block-columns(6, 6);
+        @include block-columns(5,5);
 
         // Show all 4 projects on lager screens.
         &:nth-child(n+3) {
@@ -116,11 +120,11 @@ section > hgroup {
 @include breakpoint($bkpt-page-medium) {
 
   .news, {
-    @include span-columns(4);
+    @include span-columns(8);
   }
 
   .community {
-    @include span-columns(4);
+    @include span-columns(8);
   }
 
   .statement {
@@ -129,7 +133,7 @@ section > hgroup {
 
   .statement {
     text-align: right;
-    padding-left: 1.5em;
+    padding-left: 0.5em;
   }
 
 }
@@ -157,7 +161,7 @@ section > hgroup {
 
 .community {
   img {
-    @include block-columns(6);
+    @include block-columns(6, 6);
   }
 }
 
@@ -223,7 +227,7 @@ img {
     // font-weight: normal;
   }
   p {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 }
 

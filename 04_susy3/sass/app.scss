@@ -1,0 +1,89 @@
+@import "base";
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: 1em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+.main {
+
+  hgroup {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+  }
+
+  hgroup h2 {
+      font-style: italic;
+      font-weight: normal;
+      text-align: right;
+  }
+
+}
+
+.about, .community {
+  hgroup {
+    border-bottom: solid 3px #CB101F;
+  }
+}
+
+.event.featured {
+
+}
+
+.meta {
+    font-style: italic;
+}
+
+.date {
+    width: 8em;
+    background: #fcfcfc;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    padding-top: 2.1em;
+}
+.date time {
+    font-family: Helvetica, sans-serif;
+    font-size: 6em; text-align: center; color: #9e9e9e;
+}
+
+
+.date time .top {
+    background: #636363;
+    font-size: 0.2em; font-weight: bold; color: #fff; text-transform: uppercase;
+    display: block;
+    padding: 6px 0 6px 0;
+    position: absolute;
+    top: 0;
+    width: 6.5em;
+}
+
+
+.date time sub {
+    background: #636363;
+    font-size: 0.2em; font-weight: bold; color: #fff; text-transform: uppercase;
+    display: block;
+    padding: 6px 0 6px 0;
+}
+
+.event.featured .date2 {
+    font-size: 1.5em;
+    margin: .67em 0;
+}
+
+
+.community {
+    text-align: center;
+}
+
+.more {
+  font-size: 0.9em;
+  font-style: italic;
+
+  .projekte & {
+    text-align: right;
+  }
+}
+
