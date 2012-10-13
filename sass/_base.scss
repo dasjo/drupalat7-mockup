@@ -9,11 +9,11 @@
 // Basic Grid
 
 $total-columns  : 12;
-$column-width   : 5.5em;
-$gutter-width   : 1em;
+$column-width   : 5em;
+$gutter-width   : 2em;
 $grid-padding   : $gutter-width;
 
-$show-grid-backgrounds  : true;
+$show-grid-backgrounds  : false;
 
 
 // Breakpoint
@@ -22,7 +22,7 @@ $breakpoint-to-ems: true;
 
 $bkpt-logo-normal: 400px;
 
-$bkpt-page-small: 370px;
+$bkpt-page-small: 420px;
 $bkpt-page-medium: 480px;
 $bkpt-page-large: 820px;
 

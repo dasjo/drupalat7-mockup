@@ -86,7 +86,7 @@ section > hgroup {
 .projekte {
   @include span-columns(12 omega);
   .projekt {
-    // @include block-columns(2);
+    @include block-columns(2);
 
     // Only show two project on mobile.
     &:nth-child(n+3) {
@@ -96,20 +96,20 @@ section > hgroup {
 }
 
 @include breakpoint($bkpt-page-medium) {
+  .projekte {
+    .projekt {
+      @include reset-block-columns;
+      @include block-columns(6);
 
-  @include with-grid-settings(20, 3em, 0.2em, 0em) {
-    .projekte {
-      .projekt {
-        // @include reset-block-columns;
-        @include block-columns(6, 6);
-
-        // Show all 4 projects on lager screens.
-        &:nth-child(n+3) {
-          display: block;
-        }
+      // Show all 4 projects on lager screens.
+      &:nth-child(n+3) {
+        display: block;
       }
     }
-   }
+  }
+
+  // @include with-grid-settings(12, 3em, 0.2em, 0em) {
+  // }
 
 }
 
